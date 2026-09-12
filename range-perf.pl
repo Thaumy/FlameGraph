@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env -S perl -w
 #
 # range-perf	Extract a time range from Linux "perf script" output.
 #
