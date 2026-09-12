@@ -49,7 +49,7 @@
 # fields enclosed by brackets "[]" replaced with your own identifying
 # information: Portions Copyright [yyyy] [name of copyright owner]
 #
-# CDDL HEADER END  
+# CDDL HEADER END
 #
 # 10-Sep-2011	Brendan Gregg	Created this.
 

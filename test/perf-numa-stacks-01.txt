@@ -9,14 +9,14 @@
 # cpudesc : Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
 # cpuid : GenuineIntel,6,62,4
 # total memory : 251902420 kB
-# cmdline : /usr/lib/linux-tools-3.13.0-49/perf record -F 99 -a -g -- sleep 20 
+# cmdline : /usr/lib/linux-tools-3.13.0-49/perf record -F 99 -a -g -- sleep 20
 # event : name = cpu-clock, type = 1, config = 0x0, config1 = 0x0, config2 = 0x0, excl_usr = 0, excl_kern = 0, excl_host = 0, excl_guest = 1, precise_ip = 0, attr_mmap2 = 0, attr_mmap  = 1, attr_mmap_data = 0
 # HEADER_CPU_TOPOLOGY info available, use -I to display
 # HEADER_NUMA_TOPOLOGY info available, use -I to display
 # pmu mappings: software = 1, tracepoint = 2, breakpoint = 5
 # ========
 #
-java 11008 [001] 30143.481555: cpu-clock: 
+java 11008 [001] 30143.481555: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -38,7 +38,7 @@ java 11008 [001] 30143.481555: cpu-clock:
 	    7f08b5783b58 [unknown] (/tmp/perf-10939.map)
 	    7ecef8f2f480 [unknown] ([unknown])
 
-java 11007 [000] 30143.481565: cpu-clock: 
+java 11007 [000] 30143.481565: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -60,14 +60,14 @@ java 11007 [000] 30143.481565: cpu-clock:
 	    7f08b5783e3d [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-swapper     0 [002] 30143.481591: cpu-clock: 
+swapper     0 [002] 30143.481591: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11011 [003] 30143.481612: cpu-clock: 
+java 11011 [003] 30143.481612: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -89,14 +89,14 @@ java 11011 [003] 30143.481612: cpu-clock:
 	    7f08b5783e4a [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-swapper     0 [004] 30143.481637: cpu-clock: 
+swapper     0 [004] 30143.481637: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 10998 [005] 30143.481649: cpu-clock: 
+java 10998 [005] 30143.481649: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -118,10 +118,10 @@ java 10998 [005] 30143.481649: cpu-clock:
 	    7f08b56bffa1 [unknown] (/tmp/perf-10939.map)
 	    7f08c880b5c8 [unknown] ([unknown])
 
-java 11020 [006] 30143.481655: cpu-clock: 
+java 11020 [006] 30143.481655: cpu-clock:
 	    7f08b5817256 [unknown] (/tmp/perf-10939.map)
 
-java 11017 [007] 30143.481683: cpu-clock: 
+java 11017 [007] 30143.481683: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -142,14 +142,14 @@ java 11017 [007] 30143.481683: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b57ae255 [unknown] (/tmp/perf-10939.map)
 
-swapper     0 [008] 30143.481709: cpu-clock: 
+swapper     0 [008] 30143.481709: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 10993 [009] 30143.481720: cpu-clock: 
+java 10993 [009] 30143.481720: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -172,10 +172,10 @@ java 10993 [009] 30143.481720: cpu-clock:
 	    7f08b579f7e7 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-java 10996 [010] 30143.481748: cpu-clock: 
+java 10996 [010] 30143.481748: cpu-clock:
 	    7f08b57feb68 [unknown] (/tmp/perf-10939.map)
 
-java 11013 [011] 30143.481769: cpu-clock: 
+java 11013 [011] 30143.481769: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -196,10 +196,10 @@ java 11013 [011] 30143.481769: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b578437b [unknown] (/tmp/perf-10939.map)
 
-java 11000 [012] 30143.481774: cpu-clock: 
+java 11000 [012] 30143.481774: cpu-clock:
 	    7f08b57feb75 [unknown] (/tmp/perf-10939.map)
 
-java 11001 [013] 30143.481795: cpu-clock: 
+java 11001 [013] 30143.481795: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -220,14 +220,14 @@ java 11001 [013] 30143.481795: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b57ae255 [unknown] (/tmp/perf-10939.map)
 
-swapper     0 [014] 30143.481808: cpu-clock: 
+swapper     0 [014] 30143.481808: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11015 [015] 30143.481835: cpu-clock: 
+java 11015 [015] 30143.481835: cpu-clock:
 	ffffffff81376e5d find_next_bit ([kernel.kallsyms])
 	ffffffff813649c0 cpumask_next_and ([kernel.kallsyms])
 	ffffffff8100fe0f __xen_send_IPI_mask ([kernel.kallsyms])
@@ -252,14 +252,14 @@ java 11015 [015] 30143.481835: cpu-clock:
 	    7f08cc824642 OptoRuntime::multianewarray2_C(Klass*, int, int, JavaThread*) (/usr/lib/jvm/java-8-oracle-1.8.0.45/jre/lib/amd64/server/libjvm.so)
 	    7f08b5331209 [unknown] (/tmp/perf-10939.map)
 
-swapper     0 [016] 30143.481883: cpu-clock: 
+swapper     0 [016] 30143.481883: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11002 [017] 30143.481895: cpu-clock: 
+java 11002 [017] 30143.481895: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -282,12 +282,12 @@ java 11002 [017] 30143.481895: cpu-clock:
 	    7f08b579f7e7 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-java 10992 [019] 30143.481952: cpu-clock: 
+java 10992 [019] 30143.481952: cpu-clock:
 	    7f08b50523ce [unknown] (/tmp/perf-10939.map)
 	    7f08b579f7e7 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-java 11018 [018] 30143.481960: cpu-clock: 
+java 11018 [018] 30143.481960: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -309,7 +309,7 @@ java 11018 [018] 30143.481960: cpu-clock:
 	    7f08b5783e4e [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 11009 [020] 30143.482001: cpu-clock: 
+java 11009 [020] 30143.482001: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -330,7 +330,7 @@ java 11009 [020] 30143.482001: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b57ae255 [unknown] (/tmp/perf-10939.map)
 
-java 11012 [021] 30143.482014: cpu-clock: 
+java 11012 [021] 30143.482014: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -352,21 +352,21 @@ java 11012 [021] 30143.482014: cpu-clock:
 	    7f08b5783e3d [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-swapper     0 [022] 30143.482053: cpu-clock: 
+swapper     0 [022] 30143.482053: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [023] 30143.482082: cpu-clock: 
+swapper     0 [023] 30143.482082: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11003 [024] 30143.482172: cpu-clock: 
+java 11003 [024] 30143.482172: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -387,14 +387,14 @@ java 11003 [024] 30143.482172: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b57ae255 [unknown] (/tmp/perf-10939.map)
 
-swapper     0 [025] 30143.482217: cpu-clock: 
+swapper     0 [025] 30143.482217: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 10999 [026] 30143.482242: cpu-clock: 
+java 10999 [026] 30143.482242: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -416,21 +416,21 @@ java 10999 [026] 30143.482242: cpu-clock:
 	    7f08b5783b58 [unknown] (/tmp/perf-10939.map)
 	    7ecef8f2f480 [unknown] ([unknown])
 
-swapper     0 [027] 30143.482289: cpu-clock: 
+swapper     0 [027] 30143.482289: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [028] 30143.482319: cpu-clock: 
+swapper     0 [028] 30143.482319: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11021 [029] 30143.482328: cpu-clock: 
+java 11021 [029] 30143.482328: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -453,21 +453,21 @@ java 11021 [029] 30143.482328: cpu-clock:
 	    7f08b579f7e7 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-swapper     0 [030] 30143.482367: cpu-clock: 
+swapper     0 [030] 30143.482367: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [031] 30143.482412: cpu-clock: 
+swapper     0 [031] 30143.482412: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11007 [000] 30143.491646: cpu-clock: 
+java 11007 [000] 30143.491646: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -490,28 +490,28 @@ java 11007 [000] 30143.491646: cpu-clock:
 	    7f08b579f7e7 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-swapper     0 [001] 30143.491660: cpu-clock: 
+swapper     0 [001] 30143.491660: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [002] 30143.491692: cpu-clock: 
+swapper     0 [002] 30143.491692: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [004] 30143.491731: cpu-clock: 
+swapper     0 [004] 30143.491731: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11011 [003] 30143.491743: cpu-clock: 
+java 11011 [003] 30143.491743: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -533,7 +533,7 @@ java 11011 [003] 30143.491743: cpu-clock:
 	    7f08b5783e4a [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 10998 [005] 30143.491750: cpu-clock: 
+java 10998 [005] 30143.491750: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -555,21 +555,21 @@ java 10998 [005] 30143.491750: cpu-clock:
 	    7f08b5783e4e [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 11020 [006] 30143.491756: cpu-clock: 
+java 11020 [006] 30143.491756: cpu-clock:
 	    7f08b5817256 [unknown] (/tmp/perf-10939.map)
 
-java 11017 [007] 30143.491767: cpu-clock: 
+java 11017 [007] 30143.491767: cpu-clock:
 	    7f08b5783bfc [unknown] (/tmp/perf-10939.map)
 	    7ecef8f2f480 [unknown] ([unknown])
 
-swapper     0 [008] 30143.491808: cpu-clock: 
+swapper     0 [008] 30143.491808: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 10993 [009] 30143.491819: cpu-clock: 
+java 10993 [009] 30143.491819: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -590,10 +590,10 @@ java 10993 [009] 30143.491819: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b5784130 [unknown] (/tmp/perf-10939.map)
 
-java 10996 [010] 30143.491849: cpu-clock: 
+java 10996 [010] 30143.491849: cpu-clock:
 	    7f08b57feb75 [unknown] (/tmp/perf-10939.map)
 
-java 11013 [011] 30143.491865: cpu-clock: 
+java 11013 [011] 30143.491865: cpu-clock:
 	ffffffff81433511 notify_remote_via_irq ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -614,17 +614,17 @@ java 11013 [011] 30143.491865: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b57ae255 [unknown] (/tmp/perf-10939.map)
 
-java 11000 [012] 30143.491875: cpu-clock: 
+java 11000 [012] 30143.491875: cpu-clock:
 	    7f08b57feb3e [unknown] (/tmp/perf-10939.map)
 
-swapper     0 [014] 30143.491905: cpu-clock: 
+swapper     0 [014] 30143.491905: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11001 [013] 30143.491909: cpu-clock: 
+java 11001 [013] 30143.491909: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -646,7 +646,7 @@ java 11001 [013] 30143.491909: cpu-clock:
 	    7f08b579f8a4 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-java 11015 [015] 30143.491961: cpu-clock: 
+java 11015 [015] 30143.491961: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -671,7 +671,7 @@ java 11015 [015] 30143.491961: cpu-clock:
 	    7f08cc824642 OptoRuntime::multianewarray2_C(Klass*, int, int, JavaThread*) (/usr/lib/jvm/java-8-oracle-1.8.0.45/jre/lib/amd64/server/libjvm.so)
 	    7f08b5331209 [unknown] (/tmp/perf-10939.map)
 
-java 11008 [016] 30143.491990: cpu-clock: 
+java 11008 [016] 30143.491990: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -693,7 +693,7 @@ java 11008 [016] 30143.491990: cpu-clock:
 	    7f08b56bffa1 [unknown] (/tmp/perf-10939.map)
 	    7f08c880b5c8 [unknown] ([unknown])
 
-java 11002 [017] 30143.492004: cpu-clock: 
+java 11002 [017] 30143.492004: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -714,7 +714,7 @@ java 11002 [017] 30143.492004: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b578411f [unknown] (/tmp/perf-10939.map)
 
-java 11018 [018] 30143.492031: cpu-clock: 
+java 11018 [018] 30143.492031: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -736,10 +736,10 @@ java 11018 [018] 30143.492031: cpu-clock:
 	    7f08b579f8a4 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-java 10992 [019] 30143.492052: cpu-clock: 
+java 10992 [019] 30143.492052: cpu-clock:
 	    7f08b5784383 [unknown] (/tmp/perf-10939.map)
 
-java 11009 [020] 30143.492056: cpu-clock: 
+java 11009 [020] 30143.492056: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -761,7 +761,7 @@ java 11009 [020] 30143.492056: cpu-clock:
 	    7f08b5783b58 [unknown] (/tmp/perf-10939.map)
 	    7ecef8f2f480 [unknown] ([unknown])
 
-java 11012 [021] 30143.492074: cpu-clock: 
+java 11012 [021] 30143.492074: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -783,21 +783,21 @@ java 11012 [021] 30143.492074: cpu-clock:
 	    7f08b579f8a4 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-swapper     0 [022] 30143.492146: cpu-clock: 
+swapper     0 [022] 30143.492146: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [023] 30143.492182: cpu-clock: 
+swapper     0 [023] 30143.492182: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11003 [024] 30143.492267: cpu-clock: 
+java 11003 [024] 30143.492267: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -819,14 +819,14 @@ java 11003 [024] 30143.492267: cpu-clock:
 	    7f08b56bffa1 [unknown] (/tmp/perf-10939.map)
 	    7f08c880b5c8 [unknown] ([unknown])
 
-swapper     0 [025] 30143.492321: cpu-clock: 
+swapper     0 [025] 30143.492321: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 10999 [026] 30143.492343: cpu-clock: 
+java 10999 [026] 30143.492343: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -848,42 +848,42 @@ java 10999 [026] 30143.492343: cpu-clock:
 	    7f08b5783e4e [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-swapper     0 [027] 30143.492383: cpu-clock: 
+swapper     0 [027] 30143.492383: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [028] 30143.492417: cpu-clock: 
+swapper     0 [028] 30143.492417: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [029] 30143.492433: cpu-clock: 
+swapper     0 [029] 30143.492433: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [030] 30143.492473: cpu-clock: 
+swapper     0 [030] 30143.492473: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [031] 30143.492508: cpu-clock: 
+swapper     0 [031] 30143.492508: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [000] 30143.501751: cpu-clock: 
+swapper     0 [000] 30143.501751: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
@@ -893,21 +893,21 @@ swapper     0 [000] 30143.501751: cpu-clock:
 	ffffffff81d355ee x86_64_start_reservations ([kernel.kallsyms])
 	ffffffff81d35733 x86_64_start_kernel ([kernel.kallsyms])
 
-swapper     0 [001] 30143.501756: cpu-clock: 
+swapper     0 [001] 30143.501756: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [002] 30143.501795: cpu-clock: 
+swapper     0 [002] 30143.501795: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11011 [003] 30143.501800: cpu-clock: 
+java 11011 [003] 30143.501800: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -928,17 +928,17 @@ java 11011 [003] 30143.501800: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b5784377 [unknown] (/tmp/perf-10939.map)
 
-swapper     0 [005] 30143.501855: cpu-clock: 
+swapper     0 [005] 30143.501855: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11020 [006] 30143.501858: cpu-clock: 
+java 11020 [006] 30143.501858: cpu-clock:
 	    7f08b581723e [unknown] (/tmp/perf-10939.map)
 
-java 10998 [004] 30143.501867: cpu-clock: 
+java 10998 [004] 30143.501867: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -960,14 +960,14 @@ java 10998 [004] 30143.501867: cpu-clock:
 	    7f08b5783e3d [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-swapper     0 [007] 30143.501884: cpu-clock: 
+swapper     0 [007] 30143.501884: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11021 [008] 30143.501898: cpu-clock: 
+java 11021 [008] 30143.501898: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -990,7 +990,7 @@ java 11021 [008] 30143.501898: cpu-clock:
 	    7f08b579f7e7 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-java 10993 [009] 30143.501903: cpu-clock: 
+java 10993 [009] 30143.501903: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1011,10 +1011,10 @@ java 10993 [009] 30143.501903: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b578411f [unknown] (/tmp/perf-10939.map)
 
-java 10996 [010] 30143.501949: cpu-clock: 
+java 10996 [010] 30143.501949: cpu-clock:
 	    7f08b57feb3e [unknown] (/tmp/perf-10939.map)
 
-java 11013 [011] 30143.501970: cpu-clock: 
+java 11013 [011] 30143.501970: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1036,10 +1036,10 @@ java 11013 [011] 30143.501970: cpu-clock:
 	    7f08b56bffa1 [unknown] (/tmp/perf-10939.map)
 	    7f08c880b5c8 [unknown] ([unknown])
 
-java 11000 [012] 30143.501975: cpu-clock: 
+java 11000 [012] 30143.501975: cpu-clock:
 	    7f08b57feb8f [unknown] (/tmp/perf-10939.map)
 
-java 11001 [013] 30143.501997: cpu-clock: 
+java 11001 [013] 30143.501997: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1061,7 +1061,7 @@ java 11001 [013] 30143.501997: cpu-clock:
 	    7f08b5783e4a [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 10999 [014] 30143.501999: cpu-clock: 
+java 10999 [014] 30143.501999: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1083,7 +1083,7 @@ java 10999 [014] 30143.501999: cpu-clock:
 	    7f08b5783e3d [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 11015 [015] 30143.502059: cpu-clock: 
+java 11015 [015] 30143.502059: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1108,7 +1108,7 @@ java 11015 [015] 30143.502059: cpu-clock:
 	    7f08cc824642 OptoRuntime::multianewarray2_C(Klass*, int, int, JavaThread*) (/usr/lib/jvm/java-8-oracle-1.8.0.45/jre/lib/amd64/server/libjvm.so)
 	    7f08b5331209 [unknown] (/tmp/perf-10939.map)
 
-java 11008 [016] 30143.502107: cpu-clock: 
+java 11008 [016] 30143.502107: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1130,7 +1130,7 @@ java 11008 [016] 30143.502107: cpu-clock:
 	    7f08b5783e4e [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 11002 [017] 30143.502108: cpu-clock: 
+java 11002 [017] 30143.502108: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1151,7 +1151,7 @@ java 11002 [017] 30143.502108: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b5784130 [unknown] (/tmp/perf-10939.map)
 
-java 11018 [018] 30143.502132: cpu-clock: 
+java 11018 [018] 30143.502132: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1173,7 +1173,7 @@ java 11018 [018] 30143.502132: cpu-clock:
 	    7f08b5783e3d [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 11017 [019] 30143.502158: cpu-clock: 
+java 11017 [019] 30143.502158: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1195,7 +1195,7 @@ java 11017 [019] 30143.502158: cpu-clock:
 	    7f08b56bffa1 [unknown] (/tmp/perf-10939.map)
 	    7f08c880b5c8 [unknown] ([unknown])
 
-java 11009 [020] 30143.502205: cpu-clock: 
+java 11009 [020] 30143.502205: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1217,7 +1217,7 @@ java 11009 [020] 30143.502205: cpu-clock:
 	    7f08b56bffa1 [unknown] (/tmp/perf-10939.map)
 	    7f08c880b5c8 [unknown] ([unknown])
 
-java 11012 [021] 30143.502213: cpu-clock: 
+java 11012 [021] 30143.502213: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1239,10 +1239,10 @@ java 11012 [021] 30143.502213: cpu-clock:
 	    7f08b5783e4e [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 10992 [022] 30143.502235: cpu-clock: 
+java 10992 [022] 30143.502235: cpu-clock:
 	    7f08b57842cb [unknown] (/tmp/perf-10939.map)
 
-java 11007 [023] 30143.502290: cpu-clock: 
+java 11007 [023] 30143.502290: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1263,7 +1263,7 @@ java 11007 [023] 30143.502290: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b578411f [unknown] (/tmp/perf-10939.map)
 
-java 11003 [024] 30143.502367: cpu-clock: 
+java 11003 [024] 30143.502367: cpu-clock:
 	ffffffff81376e63 find_next_bit ([kernel.kallsyms])
 	ffffffff8101056e xen_smp_send_call_function_ipi ([kernel.kallsyms])
 	ffffffff810dc471 smp_call_function_many ([kernel.kallsyms])
@@ -1283,56 +1283,56 @@ java 11003 [024] 30143.502367: cpu-clock:
 	    7f08b5783e4e [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-swapper     0 [025] 30143.502420: cpu-clock: 
+swapper     0 [025] 30143.502420: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [026] 30143.502456: cpu-clock: 
+swapper     0 [026] 30143.502456: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [027] 30143.502482: cpu-clock: 
+swapper     0 [027] 30143.502482: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [028] 30143.502523: cpu-clock: 
+swapper     0 [028] 30143.502523: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [029] 30143.502549: cpu-clock: 
+swapper     0 [029] 30143.502549: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [030] 30143.502574: cpu-clock: 
+swapper     0 [030] 30143.502574: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [031] 30143.502610: cpu-clock: 
+swapper     0 [031] 30143.502610: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [000] 30143.511847: cpu-clock: 
+swapper     0 [000] 30143.511847: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
@@ -1342,11 +1342,11 @@ swapper     0 [000] 30143.511847: cpu-clock:
 	ffffffff81d355ee x86_64_start_reservations ([kernel.kallsyms])
 	ffffffff81d35733 x86_64_start_kernel ([kernel.kallsyms])
 
-java 10992 [001] 30143.511849: cpu-clock: 
+java 10992 [001] 30143.511849: cpu-clock:
 	    7f08b5783e40 [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 11017 [002] 30143.511884: cpu-clock: 
+java 11017 [002] 30143.511884: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1368,7 +1368,7 @@ java 11017 [002] 30143.511884: cpu-clock:
 	    7f08b5783e4a [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 11011 [003] 30143.511901: cpu-clock: 
+java 11011 [003] 30143.511901: cpu-clock:
 	ffffffff811824ec change_protection_range ([kernel.kallsyms])
 	ffffffff81182705 change_protection ([kernel.kallsyms])
 	ffffffff811988bb change_prot_numa ([kernel.kallsyms])
@@ -1379,10 +1379,10 @@ java 11011 [003] 30143.511901: cpu-clock:
 	    7f08b5784261 [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 11020 [006] 30143.511921: cpu-clock: 
+java 11020 [006] 30143.511921: cpu-clock:
 	    7f08b581723e [unknown] (/tmp/perf-10939.map)
 
-java 10998 [004] 30143.511930: cpu-clock: 
+java 10998 [004] 30143.511930: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1405,21 +1405,21 @@ java 10998 [004] 30143.511930: cpu-clock:
 	    7f08b579f7e7 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-swapper     0 [005] 30143.511960: cpu-clock: 
+swapper     0 [005] 30143.511960: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [007] 30143.511982: cpu-clock: 
+swapper     0 [007] 30143.511982: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11021 [008] 30143.512011: cpu-clock: 
+java 11021 [008] 30143.512011: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1440,7 +1440,7 @@ java 11021 [008] 30143.512011: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b578412c [unknown] (/tmp/perf-10939.map)
 
-java 10993 [009] 30143.512025: cpu-clock: 
+java 10993 [009] 30143.512025: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1462,13 +1462,13 @@ java 10993 [009] 30143.512025: cpu-clock:
 	    7f08b5783b58 [unknown] (/tmp/perf-10939.map)
 	    7ecef8f2f480 [unknown] ([unknown])
 
-java 10996 [010] 30143.512049: cpu-clock: 
+java 10996 [010] 30143.512049: cpu-clock:
 	    7f08b57feb9c [unknown] (/tmp/perf-10939.map)
 
-java 11000 [012] 30143.512058: cpu-clock: 
+java 11000 [012] 30143.512058: cpu-clock:
 	    7f08b57feb5b [unknown] (/tmp/perf-10939.map)
 
-java 10999 [014] 30143.512058: cpu-clock: 
+java 10999 [014] 30143.512058: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1490,7 +1490,7 @@ java 10999 [014] 30143.512058: cpu-clock:
 	    7f08b5783e4a [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 11001 [013] 30143.512060: cpu-clock: 
+java 11001 [013] 30143.512060: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1512,7 +1512,7 @@ java 11001 [013] 30143.512060: cpu-clock:
 	    7f08b5783e3d [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 11013 [011] 30143.512061: cpu-clock: 
+java 11013 [011] 30143.512061: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1534,7 +1534,7 @@ java 11013 [011] 30143.512061: cpu-clock:
 	    7f08b5783e4e [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 11018 [018] 30143.512201: cpu-clock: 
+java 11018 [018] 30143.512201: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1556,7 +1556,7 @@ java 11018 [018] 30143.512201: cpu-clock:
 	    7f08b579f8a4 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-java 11008 [016] 30143.512214: cpu-clock: 
+java 11008 [016] 30143.512214: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1578,7 +1578,7 @@ java 11008 [016] 30143.512214: cpu-clock:
 	    7f08b5783e4e [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 11002 [017] 30143.512219: cpu-clock: 
+java 11002 [017] 30143.512219: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1599,7 +1599,7 @@ java 11002 [017] 30143.512219: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b57ae255 [unknown] (/tmp/perf-10939.map)
 
-java 11015 [015] 30143.512226: cpu-clock: 
+java 11015 [015] 30143.512226: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1624,14 +1624,14 @@ java 11015 [015] 30143.512226: cpu-clock:
 	    7f08cc824642 OptoRuntime::multianewarray2_C(Klass*, int, int, JavaThread*) (/usr/lib/jvm/java-8-oracle-1.8.0.45/jre/lib/amd64/server/libjvm.so)
 	    7f08b5331209 [unknown] (/tmp/perf-10939.map)
 
-swapper     0 [019] 30143.512266: cpu-clock: 
+swapper     0 [019] 30143.512266: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11009 [020] 30143.512299: cpu-clock: 
+java 11009 [020] 30143.512299: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1653,7 +1653,7 @@ java 11009 [020] 30143.512299: cpu-clock:
 	    7f08b579f8a4 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-java 11012 [021] 30143.512324: cpu-clock: 
+java 11012 [021] 30143.512324: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1674,14 +1674,14 @@ java 11012 [021] 30143.512324: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b578437b [unknown] (/tmp/perf-10939.map)
 
-swapper     0 [022] 30143.512347: cpu-clock: 
+swapper     0 [022] 30143.512347: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11007 [023] 30143.512420: cpu-clock: 
+java 11007 [023] 30143.512420: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1702,7 +1702,7 @@ java 11007 [023] 30143.512420: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b578411f [unknown] (/tmp/perf-10939.map)
 
-java 11003 [024] 30143.512471: cpu-clock: 
+java 11003 [024] 30143.512471: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1724,66 +1724,66 @@ java 11003 [024] 30143.512471: cpu-clock:
 	    7f08b579f8a4 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-swapper     0 [025] 30143.512523: cpu-clock: 
+swapper     0 [025] 30143.512523: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [026] 30143.512554: cpu-clock: 
+swapper     0 [026] 30143.512554: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [027] 30143.512586: cpu-clock: 
+swapper     0 [027] 30143.512586: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [028] 30143.512622: cpu-clock: 
+swapper     0 [028] 30143.512622: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [029] 30143.512647: cpu-clock: 
+swapper     0 [029] 30143.512647: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [030] 30143.512674: cpu-clock: 
+swapper     0 [030] 30143.512674: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [031] 30143.512712: cpu-clock: 
+swapper     0 [031] 30143.512712: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 10992 [000] 30143.521940: cpu-clock: 
+java 10992 [000] 30143.521940: cpu-clock:
 	    7f08b578432f [unknown] (/tmp/perf-10939.map)
 
-swapper     0 [001] 30143.521964: cpu-clock: 
+swapper     0 [001] 30143.521964: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11017 [002] 30143.521991: cpu-clock: 
+java 11017 [002] 30143.521991: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1805,7 +1805,7 @@ java 11017 [002] 30143.521991: cpu-clock:
 	    7f08b579f8a4 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-java 11011 [003] 30143.522003: cpu-clock: 
+java 11011 [003] 30143.522003: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1827,7 +1827,7 @@ java 11011 [003] 30143.522003: cpu-clock:
 	    7f08b5783b58 [unknown] (/tmp/perf-10939.map)
 	    7ecef8f2f480 [unknown] ([unknown])
 
-java 10998 [004] 30143.522032: cpu-clock: 
+java 10998 [004] 30143.522032: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1849,24 +1849,24 @@ java 10998 [004] 30143.522032: cpu-clock:
 	    7f08b5783e4e [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-swapper     0 [005] 30143.522057: cpu-clock: 
+swapper     0 [005] 30143.522057: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11020 [006] 30143.522059: cpu-clock: 
+java 11020 [006] 30143.522059: cpu-clock:
 	    7f08b5817256 [unknown] (/tmp/perf-10939.map)
 
-swapper     0 [007] 30143.522086: cpu-clock: 
+swapper     0 [007] 30143.522086: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11021 [008] 30143.522101: cpu-clock: 
+java 11021 [008] 30143.522101: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1887,7 +1887,7 @@ java 11021 [008] 30143.522101: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b578411f [unknown] (/tmp/perf-10939.map)
 
-java 10993 [009] 30143.522131: cpu-clock: 
+java 10993 [009] 30143.522131: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1909,10 +1909,10 @@ java 10993 [009] 30143.522131: cpu-clock:
 	    7f08b56bffa1 [unknown] (/tmp/perf-10939.map)
 	    7f08c880b5c8 [unknown] ([unknown])
 
-java 10996 [010] 30143.522150: cpu-clock: 
+java 10996 [010] 30143.522150: cpu-clock:
 	    7f08b57feb3e [unknown] (/tmp/perf-10939.map)
 
-java 11013 [011] 30143.522173: cpu-clock: 
+java 11013 [011] 30143.522173: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1934,10 +1934,10 @@ java 11013 [011] 30143.522173: cpu-clock:
 	    7f08b5783e4a [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 11000 [012] 30143.522178: cpu-clock: 
+java 11000 [012] 30143.522178: cpu-clock:
 	    7f08b57feb8f [unknown] (/tmp/perf-10939.map)
 
-java 10999 [014] 30143.522206: cpu-clock: 
+java 10999 [014] 30143.522206: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1960,7 +1960,7 @@ java 10999 [014] 30143.522206: cpu-clock:
 	    7f08b579f7e7 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-java 11001 [013] 30143.522214: cpu-clock: 
+java 11001 [013] 30143.522214: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -1981,7 +1981,7 @@ java 11001 [013] 30143.522214: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b578411f [unknown] (/tmp/perf-10939.map)
 
-java 11015 [015] 30143.522264: cpu-clock: 
+java 11015 [015] 30143.522264: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2006,7 +2006,7 @@ java 11015 [015] 30143.522264: cpu-clock:
 	    7f08cc824642 OptoRuntime::multianewarray2_C(Klass*, int, int, JavaThread*) (/usr/lib/jvm/java-8-oracle-1.8.0.45/jre/lib/amd64/server/libjvm.so)
 	    7f08b5331209 [unknown] (/tmp/perf-10939.map)
 
-java 11008 [016] 30143.522284: cpu-clock: 
+java 11008 [016] 30143.522284: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2028,7 +2028,7 @@ java 11008 [016] 30143.522284: cpu-clock:
 	    7f08b5783e4a [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 11002 [017] 30143.522306: cpu-clock: 
+java 11002 [017] 30143.522306: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2050,7 +2050,7 @@ java 11002 [017] 30143.522306: cpu-clock:
 	    7f08b56bffa1 [unknown] (/tmp/perf-10939.map)
 	    7f08c880b5c8 [unknown] ([unknown])
 
-java 11018 [018] 30143.522339: cpu-clock: 
+java 11018 [018] 30143.522339: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2071,14 +2071,14 @@ java 11018 [018] 30143.522339: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b578411f [unknown] (/tmp/perf-10939.map)
 
-swapper     0 [019] 30143.522367: cpu-clock: 
+swapper     0 [019] 30143.522367: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11009 [020] 30143.522413: cpu-clock: 
+java 11009 [020] 30143.522413: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2100,7 +2100,7 @@ java 11009 [020] 30143.522413: cpu-clock:
 	    7f08b579f8a4 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-java 11012 [021] 30143.522415: cpu-clock: 
+java 11012 [021] 30143.522415: cpu-clock:
 	ffffffff810dc426 smp_call_function_many ([kernel.kallsyms])
 	ffffffff8105c8f7 native_flush_tlb_others ([kernel.kallsyms])
 	ffffffff8105cbf6 flush_tlb_page ([kernel.kallsyms])
@@ -2117,14 +2117,14 @@ java 11012 [021] 30143.522415: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b57b5a5c [unknown] (/tmp/perf-10939.map)
 
-swapper     0 [022] 30143.522448: cpu-clock: 
+swapper     0 [022] 30143.522448: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11007 [023] 30143.522472: cpu-clock: 
+java 11007 [023] 30143.522472: cpu-clock:
 	ffffffff817299bb _raw_spin_unlock_irqrestore ([kernel.kallsyms])
 	ffffffff810dc462 smp_call_function_many ([kernel.kallsyms])
 	ffffffff8105c8f7 native_flush_tlb_others ([kernel.kallsyms])
@@ -2142,7 +2142,7 @@ java 11007 [023] 30143.522472: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b57ae255 [unknown] (/tmp/perf-10939.map)
 
-java 11003 [024] 30143.522573: cpu-clock: 
+java 11003 [024] 30143.522573: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2163,70 +2163,70 @@ java 11003 [024] 30143.522573: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b578412c [unknown] (/tmp/perf-10939.map)
 
-swapper     0 [025] 30143.522620: cpu-clock: 
+swapper     0 [025] 30143.522620: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [026] 30143.522655: cpu-clock: 
+swapper     0 [026] 30143.522655: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [027] 30143.522684: cpu-clock: 
+swapper     0 [027] 30143.522684: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [028] 30143.522716: cpu-clock: 
+swapper     0 [028] 30143.522716: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [029] 30143.522742: cpu-clock: 
+swapper     0 [029] 30143.522742: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [030] 30143.522775: cpu-clock: 
+swapper     0 [030] 30143.522775: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [031] 30143.522811: cpu-clock: 
+swapper     0 [031] 30143.522811: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 10992 [000] 30143.532040: cpu-clock: 
+java 10992 [000] 30143.532040: cpu-clock:
 	ffffffff8172dbd7 __do_page_fault ([kernel.kallsyms])
 	ffffffff8172df7a do_page_fault ([kernel.kallsyms])
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b5783e3d [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-swapper     0 [001] 30143.532061: cpu-clock: 
+swapper     0 [001] 30143.532061: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11017 [002] 30143.532062: cpu-clock: 
+java 11017 [002] 30143.532062: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2248,7 +2248,7 @@ java 11017 [002] 30143.532062: cpu-clock:
 	    7f08b5783e4a [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 11011 [003] 30143.532066: cpu-clock: 
+java 11011 [003] 30143.532066: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2270,24 +2270,24 @@ java 11011 [003] 30143.532066: cpu-clock:
 	    7f08b56bffa1 [unknown] (/tmp/perf-10939.map)
 	    7f08c880b5c8 [unknown] ([unknown])
 
-swapper     0 [004] 30143.532134: cpu-clock: 
+swapper     0 [004] 30143.532134: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [007] 30143.532183: cpu-clock: 
+swapper     0 [007] 30143.532183: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11020 [006] 30143.532213: cpu-clock: 
+java 11020 [006] 30143.532213: cpu-clock:
 	    7f08b5817256 [unknown] (/tmp/perf-10939.map)
 
-java 11008 [005] 30143.532214: cpu-clock: 
+java 11008 [005] 30143.532214: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2309,7 +2309,7 @@ java 11008 [005] 30143.532214: cpu-clock:
 	    7f08b579f8a4 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-java 11021 [008] 30143.532219: cpu-clock: 
+java 11021 [008] 30143.532219: cpu-clock:
 	ffffffff81369654 radix_tree_lookup_element ([kernel.kallsyms])
 	ffffffff810bf187 irq_to_desc ([kernel.kallsyms])
 	ffffffff810c26ae irq_get_irq_data ([kernel.kallsyms])
@@ -2334,7 +2334,7 @@ java 11021 [008] 30143.532219: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b57ae255 [unknown] (/tmp/perf-10939.map)
 
-java 10993 [009] 30143.532227: cpu-clock: 
+java 10993 [009] 30143.532227: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2356,13 +2356,13 @@ java 10993 [009] 30143.532227: cpu-clock:
 	    7f08b5783e3d [unknown] (/tmp/perf-10939.map)
 	    7f08c8a52338 [unknown] ([unknown])
 
-java 10996 [010] 30143.532251: cpu-clock: 
+java 10996 [010] 30143.532251: cpu-clock:
 	    7f08b57feb75 [unknown] (/tmp/perf-10939.map)
 
-java 11000 [012] 30143.532280: cpu-clock: 
+java 11000 [012] 30143.532280: cpu-clock:
 	    7f08b57feb4b [unknown] (/tmp/perf-10939.map)
 
-java 11013 [011] 30143.532281: cpu-clock: 
+java 11013 [011] 30143.532281: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2383,7 +2383,7 @@ java 11013 [011] 30143.532281: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b5784130 [unknown] (/tmp/perf-10939.map)
 
-java 11001 [013] 30143.532304: cpu-clock: 
+java 11001 [013] 30143.532304: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2405,7 +2405,7 @@ java 11001 [013] 30143.532304: cpu-clock:
 	    7f08b5783bfc [unknown] (/tmp/perf-10939.map)
 	    7ecef8f2f480 [unknown] ([unknown])
 
-java 10999 [014] 30143.532315: cpu-clock: 
+java 10999 [014] 30143.532315: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2426,7 +2426,7 @@ java 10999 [014] 30143.532315: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b5784130 [unknown] (/tmp/perf-10939.map)
 
-java 11015 [015] 30143.532340: cpu-clock: 
+java 11015 [015] 30143.532340: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2451,14 +2451,14 @@ java 11015 [015] 30143.532340: cpu-clock:
 	    7f08cc824642 OptoRuntime::multianewarray2_C(Klass*, int, int, JavaThread*) (/usr/lib/jvm/java-8-oracle-1.8.0.45/jre/lib/amd64/server/libjvm.so)
 	    7f08b5331209 [unknown] (/tmp/perf-10939.map)
 
-swapper     0 [016] 30143.532386: cpu-clock: 
+swapper     0 [016] 30143.532386: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11002 [017] 30143.532404: cpu-clock: 
+java 11002 [017] 30143.532404: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2480,7 +2480,7 @@ java 11002 [017] 30143.532404: cpu-clock:
 	    7f08b579f8a4 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-java 11018 [018] 30143.532442: cpu-clock: 
+java 11018 [018] 30143.532442: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2501,7 +2501,7 @@ java 11018 [018] 30143.532442: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b578412c [unknown] (/tmp/perf-10939.map)
 
-java 10998 [019] 30143.532472: cpu-clock: 
+java 10998 [019] 30143.532472: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2524,7 +2524,7 @@ java 10998 [019] 30143.532472: cpu-clock:
 	    7f08b579f7e7 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-java 11009 [020] 30143.532507: cpu-clock: 
+java 11009 [020] 30143.532507: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2547,7 +2547,7 @@ java 11009 [020] 30143.532507: cpu-clock:
 	    7f08b579f7e7 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-java 11012 [021] 30143.532516: cpu-clock: 
+java 11012 [021] 30143.532516: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2569,14 +2569,14 @@ java 11012 [021] 30143.532516: cpu-clock:
 	    7f08b5783b58 [unknown] (/tmp/perf-10939.map)
 	    7ecef8f2f480 [unknown] ([unknown])
 
-swapper     0 [022] 30143.532548: cpu-clock: 
+swapper     0 [022] 30143.532548: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 11007 [023] 30143.532571: cpu-clock: 
+java 11007 [023] 30143.532571: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2598,7 +2598,7 @@ java 11007 [023] 30143.532571: cpu-clock:
 	    7f08b5783b58 [unknown] (/tmp/perf-10939.map)
 	    7ecef8f2f480 [unknown] ([unknown])
 
-java 11003 [024] 30143.532684: cpu-clock: 
+java 11003 [024] 30143.532684: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2619,59 +2619,59 @@ java 11003 [024] 30143.532684: cpu-clock:
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b5784377 [unknown] (/tmp/perf-10939.map)
 
-swapper     0 [025] 30143.532725: cpu-clock: 
+swapper     0 [025] 30143.532725: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [026] 30143.532761: cpu-clock: 
+swapper     0 [026] 30143.532761: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [027] 30143.532787: cpu-clock: 
+swapper     0 [027] 30143.532787: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [028] 30143.532819: cpu-clock: 
+swapper     0 [028] 30143.532819: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [029] 30143.532838: cpu-clock: 
+swapper     0 [029] 30143.532838: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [030] 30143.532875: cpu-clock: 
+swapper     0 [030] 30143.532875: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-swapper     0 [031] 30143.532915: cpu-clock: 
+swapper     0 [031] 30143.532915: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 10992 [000] 30143.542141: cpu-clock: 
+java 10992 [000] 30143.542141: cpu-clock:
 	    7f08b57ae3b4 [unknown] (/tmp/perf-10939.map)
 
-java 11017 [001] 30143.542157: cpu-clock: 
+java 11017 [001] 30143.542157: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2693,7 +2693,7 @@ java 11017 [001] 30143.542157: cpu-clock:
 	    7f08b579f8a4 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-java 11011 [003] 30143.542163: cpu-clock: 
+java 11011 [003] 30143.542163: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2715,21 +2715,21 @@ java 11011 [003] 30143.542163: cpu-clock:
 	    7f08b579f8a4 [unknown] (/tmp/perf-10939.map)
 	    7f08c88c60a8 [unknown] ([unknown])
 
-swapper     0 [002] 30143.542196: cpu-clock: 
+swapper     0 [002] 30143.542196: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])
 	ffffffff810befa5 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8104150d start_secondary ([kernel.kallsyms])
 
-java 10999 [005] 30143.542223: cpu-clock: 
+java 10999 [005] 30143.542223: cpu-clock:
 	ffffffff8172dbd7 __do_page_fault ([kernel.kallsyms])
 	ffffffff8172df7a do_page_fault ([kernel.kallsyms])
 	ffffffff8172a3a8 page_fault ([kernel.kallsyms])
 	    7f08b5783b58 [unknown] (/tmp/perf-10939.map)
 	    7ecef8f2f480 [unknown] ([unknown])
 
-java 11012 [004] 30143.542231: cpu-clock: 
+java 11012 [004] 30143.542231: cpu-clock:
 	ffffffff81001408 xen_hypercall_event_channel_op ([kernel.kallsyms])
 	ffffffff81434750 xen_send_IPI_one ([kernel.kallsyms])
 	ffffffff8100fe02 __xen_send_IPI_mask ([kernel.kallsyms])
@@ -2751,10 +2751,10 @@ java 11012 [004] 30143.542231: cpu-clock:
 	    7f08b56bffa1 [unknown] (/tmp/perf-10939.map)
 	    7f08c880b5c8 [unknown] ([unknown])
 
-java 11020 [006] 30143.542261: cpu-clock: 
+java 11020 [006] 30143.542261: cpu-clock:
 	    7f08b5817290 [unknown] (/tmp/perf-10939.map)
 
-swapper     0 [007] 30143.542288: cpu-clock: 
+swapper     0 [007] 30143.542288: cpu-clock:
 	ffffffff8104f596 native_safe_halt ([kernel.kallsyms])
 	ffffffff8101caaf default_idle ([kernel.kallsyms])
 	ffffffff8101d376 arch_cpu_idle ([kernel.kallsyms])

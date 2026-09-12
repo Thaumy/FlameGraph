@@ -1,4 +1,4 @@
-node-v011 31912 cpu-clock: 
+node-v011 31912 cpu-clock:
             13a80b608e0a RegExp:[&<>\"\'] (/tmp/perf-7539.map)
              c6d7895aac9 LazyCompile:~body_0 evalmachine.<anonymous>:1 (/tmp/perf-31912.map)
                    dd777 v8::internal::Execution::Call(v8::internal::Isolate*, v8::internal::Handle<v8::internal::Object>, v8::internal::Handle<v8::internal::Object>, int, v8::internal::Handle<v8::internal::Object>*, bool) (/tmp/node-v011)
@@ -18,7 +18,7 @@ node-v011 31912 cpu-clock:
                   ae5f31 node::Start(int, char**) (/tmp/node-v011)
             7f9c33ac176d __libc_start_main (/lib/x86_64-linux-gnu/libc-2.15.so)
 
-node-v011 31912 cpu-clock: 
+node-v011 31912 cpu-clock:
              c6d78255e68 RegExp:\bFoo ?Bar(?:/[\d.]+|[ \w.]*) (/tmp/perf-31912.map)
              c6d788f8125 LazyCompile:*Async$consumeFunctionBuffer /apps/node/webapp/node_modules/xxxxx/js/main/async.js:39 (/tmp/perf-31912.map)
              c6d78490728 LazyCompile:_tickDomainCallback node.js:387 (/tmp/perf-31912.map)

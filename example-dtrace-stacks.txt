@@ -1,5 +1,5 @@
 CPU     ID                    FUNCTION:NAME
-  0  64091                        :tick-60s 
+  0  64091                        :tick-60s
 
 
               genunix`kmem_cpu_reload+0x20

@@ -13,8 +13,8 @@
 <script type="text/ecmascript">
 <![CDATA[
 	var details, svg;
-	function init(evt) { 
-		details = document.getElementById("details").firstChild; 
+	function init(evt) {
+		details = document.getElementById("details").firstChild;
 		svg = document.getElementsByTagName("svg")[0];
 	}
 	function s(info) { details.nodeValue = "Function: " + info; }
@@ -57,7 +57,7 @@
 			return;
 		
 		for (var x=txt.length-2; x>0; x--) {
-			if (t.getSubStringLength(0, x+2) <= w) { 
+			if (t.getSubStringLength(0, x+2) <= w) {
 				t.textContent = txt.substring(0,x) + "..";
 				return;
 			}
@@ -108,7 +108,7 @@
 			zoom_parent(c[i]);
 		}
 	}
-	function zoom(node) { 
+	function zoom(node) {
 		var attr = find_child(node, "rect").attributes;
 		var width = parseFloat(attr["width"].value);
 		var xmin = parseFloat(attr["x"].value);

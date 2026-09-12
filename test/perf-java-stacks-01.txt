@@ -9,14 +9,14 @@
 # cpudesc : Intel(R) Core(TM) i5-2400 CPU @ 3.10GHz
 # cpuid : GenuineIntel,6,42,7
 # total memory : 4005800 kB
-# cmdline : /usr/lib/linux-tools-3.13.0-44/perf record -F 99 -a -g -- sleep 30 
+# cmdline : /usr/lib/linux-tools-3.13.0-44/perf record -F 99 -a -g -- sleep 30
 # event : name = cycles, type = 0, config = 0x0, config1 = 0x0, config2 = 0x0, excl_usr = 0, excl_kern = 0, excl_host = 0, excl_guest = 1, precise_ip = 0, attr_mmap2 = 0, attr_mmap  = 1, attr_mmap_data = 0
 # HEADER_CPU_TOPOLOGY info available, use -I to display
 # HEADER_NUMA_TOPOLOGY info available, use -I to display
 # pmu mappings: cpu = 4, software = 1, tracepoint = 2, uncore_cbox_0 = 6, uncore_cbox_1 = 7, uncore_cbox_2 = 8, uncore_cbox_3 = 9, breakpoint = 5
 # ========
 #
-ab 23927 [000] 184694.229089: cycles: 
+ab 23927 [000] 184694.229089: cycles:
 	ffffffff8104f45a native_write_msr_safe ([kernel.kallsyms])
 	ffffffff8102f8bc intel_pmu_enable_all ([kernel.kallsyms])
 	ffffffff81029b14 x86_pmu_enable ([kernel.kallsyms])
@@ -37,7 +37,7 @@ ab 23927 [000] 184694.229089: cycles:
 	    7f26dc479340 __write_nocancel (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 	    7f26cab4c0b0 [unknown] ([unknown])
 
-ab 23927 [000] 184694.229097: cycles: 
+ab 23927 [000] 184694.229097: cycles:
 	ffffffff8104f45a native_write_msr_safe ([kernel.kallsyms])
 	ffffffff8102f8bc intel_pmu_enable_all ([kernel.kallsyms])
 	ffffffff81029b14 x86_pmu_enable ([kernel.kallsyms])
@@ -58,7 +58,7 @@ ab 23927 [000] 184694.229097: cycles:
 	    7f26dc479340 __write_nocancel (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 	    7f26cab4c0b0 [unknown] ([unknown])
 
-ab 23927 [000] 184694.229099: cycles: 
+ab 23927 [000] 184694.229099: cycles:
 	ffffffff8104f45a native_write_msr_safe ([kernel.kallsyms])
 	ffffffff8102f8bc intel_pmu_enable_all ([kernel.kallsyms])
 	ffffffff81029b14 x86_pmu_enable ([kernel.kallsyms])
@@ -79,7 +79,7 @@ ab 23927 [000] 184694.229099: cycles:
 	    7f26dc479340 __write_nocancel (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 	    7f26cab4c0b0 [unknown] ([unknown])
 
-ab 23927 [000] 184694.229101: cycles: 
+ab 23927 [000] 184694.229101: cycles:
 	ffffffff8104f45a native_write_msr_safe ([kernel.kallsyms])
 	ffffffff8102f8bc intel_pmu_enable_all ([kernel.kallsyms])
 	ffffffff81029b14 x86_pmu_enable ([kernel.kallsyms])
@@ -100,7 +100,7 @@ ab 23927 [000] 184694.229101: cycles:
 	    7f26dc479340 __write_nocancel (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 	    7f26cab4c0b0 [unknown] ([unknown])
 
-java 23921 [001] 184694.229109: cycles: 
+java 23921 [001] 184694.229109: cycles:
 	ffffffff8104f45a native_write_msr_safe ([kernel.kallsyms])
 	ffffffff8102f8bc intel_pmu_enable_all ([kernel.kallsyms])
 	ffffffff81029b14 x86_pmu_enable ([kernel.kallsyms])
@@ -136,7 +136,7 @@ java 23921 [001] 184694.229109: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23921 [001] 184694.229114: cycles: 
+java 23921 [001] 184694.229114: cycles:
 	ffffffff8104f45a native_write_msr_safe ([kernel.kallsyms])
 	ffffffff8102f8bc intel_pmu_enable_all ([kernel.kallsyms])
 	ffffffff81029b14 x86_pmu_enable ([kernel.kallsyms])
@@ -172,7 +172,7 @@ java 23921 [001] 184694.229114: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23921 [001] 184694.229117: cycles: 
+java 23921 [001] 184694.229117: cycles:
 	ffffffff8104f45a native_write_msr_safe ([kernel.kallsyms])
 	ffffffff8102f8bc intel_pmu_enable_all ([kernel.kallsyms])
 	ffffffff81029b14 x86_pmu_enable ([kernel.kallsyms])
@@ -208,7 +208,7 @@ java 23921 [001] 184694.229117: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23921 [001] 184694.229119: cycles: 
+java 23921 [001] 184694.229119: cycles:
 	ffffffff8104f45a native_write_msr_safe ([kernel.kallsyms])
 	ffffffff8102f8bc intel_pmu_enable_all ([kernel.kallsyms])
 	ffffffff81029b14 x86_pmu_enable ([kernel.kallsyms])
@@ -244,7 +244,7 @@ java 23921 [001] 184694.229119: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-perf 23929 [002] 184694.229126: cycles: 
+perf 23929 [002] 184694.229126: cycles:
 	ffffffff8104f45a native_write_msr_safe ([kernel.kallsyms])
 	ffffffff8102f8bc intel_pmu_enable_all ([kernel.kallsyms])
 	ffffffff81029b14 x86_pmu_enable ([kernel.kallsyms])
@@ -267,7 +267,7 @@ perf 23929 [002] 184694.229126: cycles:
 	          407a40 [unknown] (/usr/lib/linux-tools-3.13.0-44/perf)
 	    7f2ccb956ec5 __libc_start_main (/lib/x86_64-linux-gnu/libc-2.19.so)
 
-swapper     0 [000] 184694.229130: cycles: 
+swapper     0 [000] 184694.229130: cycles:
 	ffffffff810c8c9e rcu_idle_enter ([kernel.kallsyms])
 	ffffffff810bef30 cpu_startup_entry ([kernel.kallsyms])
 	ffffffff8170f247 rest_init ([kernel.kallsyms])
@@ -275,7 +275,7 @@ swapper     0 [000] 184694.229130: cycles:
 	ffffffff81d355ee x86_64_start_reservations ([kernel.kallsyms])
 	ffffffff81d35733 x86_64_start_kernel ([kernel.kallsyms])
 
-perf 23929 [002] 184694.229130: cycles: 
+perf 23929 [002] 184694.229130: cycles:
 	ffffffff8104f45a native_write_msr_safe ([kernel.kallsyms])
 	ffffffff8102f8bc intel_pmu_enable_all ([kernel.kallsyms])
 	ffffffff81029b14 x86_pmu_enable ([kernel.kallsyms])
@@ -298,7 +298,7 @@ perf 23929 [002] 184694.229130: cycles:
 	          407a40 [unknown] (/usr/lib/linux-tools-3.13.0-44/perf)
 	    7f2ccb956ec5 __libc_start_main (/lib/x86_64-linux-gnu/libc-2.19.so)
 
-perf 23929 [002] 184694.229133: cycles: 
+perf 23929 [002] 184694.229133: cycles:
 	ffffffff8104f45a native_write_msr_safe ([kernel.kallsyms])
 	ffffffff8102f8bc intel_pmu_enable_all ([kernel.kallsyms])
 	ffffffff81029b14 x86_pmu_enable ([kernel.kallsyms])
@@ -321,7 +321,7 @@ perf 23929 [002] 184694.229133: cycles:
 	          407a40 [unknown] (/usr/lib/linux-tools-3.13.0-44/perf)
 	    7f2ccb956ec5 __libc_start_main (/lib/x86_64-linux-gnu/libc-2.19.so)
 
-perf 23929 [002] 184694.229135: cycles: 
+perf 23929 [002] 184694.229135: cycles:
 	ffffffff8104f45a native_write_msr_safe ([kernel.kallsyms])
 	ffffffff8102f8bc intel_pmu_enable_all ([kernel.kallsyms])
 	ffffffff81029b14 x86_pmu_enable ([kernel.kallsyms])
@@ -344,7 +344,7 @@ perf 23929 [002] 184694.229135: cycles:
 	          407a40 [unknown] (/usr/lib/linux-tools-3.13.0-44/perf)
 	    7f2ccb956ec5 __libc_start_main (/lib/x86_64-linux-gnu/libc-2.19.so)
 
-java 23923 [003] 184694.229142: cycles: 
+java 23923 [003] 184694.229142: cycles:
 	ffffffff8104f45a native_write_msr_safe ([kernel.kallsyms])
 	ffffffff8102f8bc intel_pmu_enable_all ([kernel.kallsyms])
 	ffffffff81029b14 x86_pmu_enable ([kernel.kallsyms])
@@ -387,7 +387,7 @@ java 23923 [003] 184694.229142: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23923 [003] 184694.229148: cycles: 
+java 23923 [003] 184694.229148: cycles:
 	ffffffff8104f45a native_write_msr_safe ([kernel.kallsyms])
 	ffffffff8102f8bc intel_pmu_enable_all ([kernel.kallsyms])
 	ffffffff81029b14 x86_pmu_enable ([kernel.kallsyms])
@@ -430,7 +430,7 @@ java 23923 [003] 184694.229148: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23923 [003] 184694.229150: cycles: 
+java 23923 [003] 184694.229150: cycles:
 	ffffffff8104f45a native_write_msr_safe ([kernel.kallsyms])
 	ffffffff8102f8bc intel_pmu_enable_all ([kernel.kallsyms])
 	ffffffff81029b14 x86_pmu_enable ([kernel.kallsyms])
@@ -473,7 +473,7 @@ java 23923 [003] 184694.229150: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23923 [003] 184694.229153: cycles: 
+java 23923 [003] 184694.229153: cycles:
 	ffffffff8104f45a native_write_msr_safe ([kernel.kallsyms])
 	ffffffff8102f8bc intel_pmu_enable_all ([kernel.kallsyms])
 	ffffffff81029b14 x86_pmu_enable ([kernel.kallsyms])
@@ -516,7 +516,7 @@ java 23923 [003] 184694.229153: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23921 [001] 184694.229157: cycles: 
+java 23921 [001] 184694.229157: cycles:
 	    7f6b2d0bad15 Lorg/mozilla/javascript/ScriptableObject;.createSlot (/tmp/perf-23895.map)
 	    7f6b2d0904a8 Lorg/mozilla/javascript/ScriptableObject;.getSlot (/tmp/perf-23895.map)
 	    7f6b2d0bdc1c Lorg/mozilla/javascript/IdScriptableObject;.put (/tmp/perf-23895.map)
@@ -549,14 +549,14 @@ java 23921 [001] 184694.229157: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-perf 23929 [002] 184694.229184: cycles: 
+perf 23929 [002] 184694.229184: cycles:
 	ffffffff81729600 page_fault ([kernel.kallsyms])
 	          415c96 [unknown] (/usr/lib/linux-tools-3.13.0-44/perf)
 	          4081a5 [unknown] (/usr/lib/linux-tools-3.13.0-44/perf)
 	          407a40 [unknown] (/usr/lib/linux-tools-3.13.0-44/perf)
 	    7f2ccb956ec5 __libc_start_main (/lib/x86_64-linux-gnu/libc-2.19.so)
 
-java 23923 [003] 184694.229188: cycles: 
+java 23923 [003] 184694.229188: cycles:
 	    7f6b2d0902c7 Lorg/mozilla/javascript/ScriptableObject;.getSlot (/tmp/perf-23895.map)
 	    7f6b2d0ca4f4 Lorg/mozilla/javascript/ScriptRuntime;.setObjectProp (/tmp/perf-23895.map)
 	    7f6b2d5614a8 Lorg/mozilla/javascript/gen/file__home_bgregg_vert_x_2_1_sys_mods_io_vertx_lang_js_1_1_0_vertx_streams_js_47;.call (/tmp/perf-23895.map)
@@ -589,7 +589,7 @@ java 23923 [003] 184694.229188: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23923 [000] 184694.243059: cycles: 
+java 23923 [000] 184694.243059: cycles:
 	    7f6b2d416e87 Lorg/mozilla/javascript/gen/file__home_bgregg_vert_x_2_1_sys_mods_io_vertx_lang_js_1_1_0_vertx_http_js_93;.getParamCount (/tmp/perf-23895.map)
 	    7f6b2d5946dc Lorg/mozilla/javascript/gen/file__home_bgregg_vert_x_2_1_sys_mods_io_vertx_lang_js_1_1_0_vertx_http_js_93;._c_anonymous_3 (/tmp/perf-23895.map)
 	    7f6b2d4bbef8 Lorg/mozilla/javascript/gen/file__home_bgregg_vert_x_2_1_sys_mods_io_vertx_lang_js_1_1_0_vertx_http_js_93;.call (/tmp/perf-23895.map)
@@ -619,7 +619,7 @@ java 23923 [000] 184694.243059: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23921 [001] 184694.246484: cycles: 
+java 23921 [001] 184694.246484: cycles:
 	    7f6b2d3d11b0 Lio/netty/handler/codec/http/HttpMethod;.valueOf (/tmp/perf-23895.map)
 	    7f6b2d3ffe24 Lio/netty/handler/codec/http/HttpObjectDecoder;.decode (/tmp/perf-23895.map)
 	    7f6b2d417fd0 Lio/netty/handler/codec/ByteToMessageDecoder;.channelRead (/tmp/perf-23895.map)
@@ -640,7 +640,7 @@ java 23921 [001] 184694.246484: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23922 [003] 184694.246867: cycles: 
+java 23922 [003] 184694.246867: cycles:
 	    7f6b2d0bad52 Lorg/mozilla/javascript/ScriptableObject;.createSlot (/tmp/perf-23895.map)
 	    7f6b2d0904a8 Lorg/mozilla/javascript/ScriptableObject;.getSlot (/tmp/perf-23895.map)
 	    7f6b2d0bdc1c Lorg/mozilla/javascript/IdScriptableObject;.put (/tmp/perf-23895.map)
@@ -673,7 +673,7 @@ java 23922 [003] 184694.246867: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23921 [002] 184694.255900: cycles: 
+java 23921 [002] 184694.255900: cycles:
 	    7f6b2d54ff29 Lsun/nio/ch/SocketChannelImpl;.read (/tmp/perf-23895.map)
 	    7f6b2d519374 Lio/netty/buffer/AbstractByteBuf;.writeBytes (/tmp/perf-23895.map)
 	    7f6b2d55840c Lio/netty/channel/nio/AbstractNioByteChannel$NioByteUnsafe;.read (/tmp/perf-23895.map)
@@ -692,7 +692,7 @@ java 23921 [002] 184694.255900: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23920 [000] 184694.356511: cycles: 
+java 23920 [000] 184694.356511: cycles:
 	    7f6b2d329439 Lorg/vertx/java/core/http/impl/ServerConnection;.handleMessage (/tmp/perf-23895.map)
 	    7f6b2d350a70 Lorg/vertx/java/core/http/impl/DefaultHttpServer$ServerHandler;.doMessageReceived (/tmp/perf-23895.map)
 	    7f6b2d325fac Lorg/vertx/java/core/http/impl/VertxHttpHandler;.channelRead (/tmp/perf-23895.map)
@@ -716,7 +716,7 @@ java 23920 [000] 184694.356511: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23922 [003] 184694.363320: cycles: 
+java 23922 [003] 184694.363320: cycles:
 	    7f6b2d0d5c53 Ljava/lang/Thread;.blockedOn (/tmp/perf-23895.map)
 	    7f6b2d550194 Lsun/nio/ch/SocketChannelImpl;.read (/tmp/perf-23895.map)
 	    7f6b2d519374 Lio/netty/buffer/AbstractByteBuf;.writeBytes (/tmp/perf-23895.map)
@@ -736,7 +736,7 @@ java 23922 [003] 184694.363320: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23921 [001] 184694.365722: cycles: 
+java 23921 [001] 184694.365722: cycles:
 	    7f6b2d1f22c2 Lorg/mozilla/javascript/ScriptRuntime;.getPropFunctionAndThis (/tmp/perf-23895.map)
 	    7f6b2d5838ec Lorg/mozilla/javascript/gen/file__home_bgregg_vert_x_2_1_sys_mods_io_vertx_lang_js_1_1_0_vertx_http_js_90;._c_anonymous_3 (/tmp/perf-23895.map)
 	    7f6b2d41cac0 Lorg/mozilla/javascript/gen/file__home_bgregg_vert_x_2_1_sys_mods_io_vertx_lang_js_1_1_0_vertx_http_js_90;.call (/tmp/perf-23895.map)
@@ -766,7 +766,7 @@ java 23921 [001] 184694.365722: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23920 [002] 184694.366480: cycles: 
+java 23920 [002] 184694.366480: cycles:
 	    7f6b2d0a4908 Lorg/mozilla/javascript/IdScriptableObject;.has (/tmp/perf-23895.map)
 	    7f6b2d0ca4f4 Lorg/mozilla/javascript/ScriptRuntime;.setObjectProp (/tmp/perf-23895.map)
 	    7f6b2d536bb4 Lorg/mozilla/javascript/gen/file__home_bgregg_vert_x_2_1_sys_mods_io_vertx_lang_js_1_1_0_vertx_streams_js_31;.call (/tmp/perf-23895.map)
@@ -802,7 +802,7 @@ java 23920 [002] 184694.366480: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23922 [000] 184694.378688: cycles: 
+java 23922 [000] 184694.378688: cycles:
 	    7f6b2d0a4bcc Lorg/mozilla/javascript/IdScriptableObject;.has (/tmp/perf-23895.map)
 	    7f6b2d0ca4f4 Lorg/mozilla/javascript/ScriptRuntime;.setObjectProp (/tmp/perf-23895.map)
 	    7f6b2d5b469c Lorg/mozilla/javascript/gen/file__home_bgregg_vert_x_2_1_sys_mods_io_vertx_lang_js_1_1_0_vertx_http_js_91;._c_anonymous_3 (/tmp/perf-23895.map)
@@ -833,7 +833,7 @@ java 23922 [000] 184694.378688: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-ab 23927 [003] 184694.382687: cycles: 
+ab 23927 [003] 184694.382687: cycles:
 	ffffffff81616449 __kfree_skb ([kernel.kallsyms])
 	ffffffff81672c6a tcp_clean_rtx_queue ([kernel.kallsyms])
 	ffffffff816739e8 tcp_ack ([kernel.kallsyms])
@@ -869,7 +869,7 @@ ab 23927 [003] 184694.382687: cycles:
 	    7f26dc479340 __write_nocancel (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 	    7f26cabd51d0 [unknown] ([unknown])
 
-java 23921 [002] 184694.383958: cycles: 
+java 23921 [002] 184694.383958: cycles:
 	    7f6b2d0904b8 Lorg/mozilla/javascript/ScriptableObject;.getSlot (/tmp/perf-23895.map)
 	    7f6b2d0c48ac Lorg/mozilla/javascript/IdScriptableObject;.get (/tmp/perf-23895.map)
 	    7f6b2d0cd4fc Lorg/mozilla/javascript/ScriptRuntime;.nameOrFunction (/tmp/perf-23895.map)
@@ -901,7 +901,7 @@ java 23921 [002] 184694.383958: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23923 [001] 184694.384113: cycles: 
+java 23923 [001] 184694.384113: cycles:
 	    7f6b2d4bc341 Lorg/mozilla/javascript/gen/file__home_bgregg_vert_x_2_1_sys_mods_io_vertx_lang_js_1_1_0_vertx_http_js_93;.call (/tmp/perf-23895.map)
 	    7f6b2d4bbdfc Lorg/mozilla/javascript/gen/file__home_bgregg_vert_x_2_1_sys_mods_io_vertx_lang_js_1_1_0_vertx_http_js_93;.call (/tmp/perf-23895.map)
 	    7f6b2d329434 Lorg/vertx/java/core/http/impl/ServerConnection;.handleMessage (/tmp/perf-23895.map)
@@ -927,7 +927,7 @@ java 23923 [001] 184694.384113: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23922 [000] 184694.394803: cycles: 
+java 23922 [000] 184694.394803: cycles:
 	ffffffff8167edee __tcp_v4_send_check ([kernel.kallsyms])
 	ffffffff8167ee3c tcp_v4_send_check ([kernel.kallsyms])
 	ffffffff816775b5 tcp_transmit_skb ([kernel.kallsyms])
@@ -971,7 +971,7 @@ java 23922 [000] 184694.394803: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-ab 23927 [003] 184694.397164: cycles: 
+ab 23927 [003] 184694.397164: cycles:
 	ffffffff8161517e __kmalloc_reserve.isra.26 ([kernel.kallsyms])
 	ffffffff81615b1e __alloc_skb ([kernel.kallsyms])
 	ffffffff81669609 sk_stream_alloc_skb ([kernel.kallsyms])
@@ -985,7 +985,7 @@ ab 23927 [003] 184694.397164: cycles:
 	    7f26dc479340 __write_nocancel (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 	    7f26cabe2590 [unknown] ([unknown])
 
-java 23921 [002] 184694.398792: cycles: 
+java 23921 [002] 184694.398792: cycles:
 	    7f6b2d2fd3e4 Ljava/lang/reflect/Method;.invoke (/tmp/perf-23895.map)
 	    7f6b2d3094bc Lorg/mozilla/javascript/MemberBox;.invoke (/tmp/perf-23895.map)
 	    7f6b2d4078bc Lorg/mozilla/javascript/NativeJavaMethod;.call (/tmp/perf-23895.map)
@@ -1017,7 +1017,7 @@ java 23921 [002] 184694.398792: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23923 [001] 184694.399637: cycles: 
+java 23923 [001] 184694.399637: cycles:
 	    7f6b42bf6900 pthread_self (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 	    7f6b2d3deddc Lsun/nio/ch/SocketChannelImpl;.write (/tmp/perf-23895.map)
 	    7f6b2d3d1e74 Lio/netty/buffer/PooledUnsafeDirectByteBuf;.getBytes (/tmp/perf-23895.map)
@@ -1048,7 +1048,7 @@ java 23923 [001] 184694.399637: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23922 [000] 184694.408782: cycles: 
+java 23922 [000] 184694.408782: cycles:
 	    7f6b2d20a8d3 Lio/netty/handler/codec/http/DefaultHttpHeaders;.add0 (/tmp/perf-23895.map)
 	    7f6b2d2fdccc Ljava/lang/reflect/Method;.invoke (/tmp/perf-23895.map)
 	    7f6b2d3094bc Lorg/mozilla/javascript/MemberBox;.invoke (/tmp/perf-23895.map)
@@ -1080,7 +1080,7 @@ java 23922 [000] 184694.408782: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23921 [002] 184694.412007: cycles: 
+java 23921 [002] 184694.412007: cycles:
 	ffffffff81728c21 _raw_spin_unlock_irqrestore ([kernel.kallsyms])
 	ffffffff8109a88a try_to_wake_up ([kernel.kallsyms])
 	ffffffff8109a9c2 default_wake_function ([kernel.kallsyms])
@@ -1151,7 +1151,7 @@ java 23921 [002] 184694.412007: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23923 [001] 184694.413293: cycles: 
+java 23923 [001] 184694.413293: cycles:
 	    7f6b2d090407 Lorg/mozilla/javascript/ScriptableObject;.getSlot (/tmp/perf-23895.map)
 	    7f6b2d0a4908 Lorg/mozilla/javascript/IdScriptableObject;.has (/tmp/perf-23895.map)
 	    7f6b2d0ca4f4 Lorg/mozilla/javascript/ScriptRuntime;.setObjectProp (/tmp/perf-23895.map)
@@ -1183,7 +1183,7 @@ java 23923 [001] 184694.413293: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-ab 23927 [003] 184694.413444: cycles: 
+ab 23927 [003] 184694.413444: cycles:
 	ffffffff8167b9f0 tcp_v4_md5_lookup ([kernel.kallsyms])
 	ffffffff81676d54 tcp_current_mss ([kernel.kallsyms])
 	ffffffff816680ac tcp_send_mss ([kernel.kallsyms])
@@ -1197,7 +1197,7 @@ ab 23927 [003] 184694.413444: cycles:
 	    7f26dc479340 __write_nocancel (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 	    7f26cabf0e30 [unknown] ([unknown])
 
-java 23922 [000] 184694.420880: cycles: 
+java 23922 [000] 184694.420880: cycles:
 	    7f6b2d0902c0 Lorg/mozilla/javascript/ScriptableObject;.getSlot (/tmp/perf-23895.map)
 	    7f6b2d0ca428 Lorg/mozilla/javascript/ScriptRuntime;.setObjectProp (/tmp/perf-23895.map)
 	    7f6b2d552aac Lorg/mozilla/javascript/gen/file__home_bgregg_vert_x_2_1_sys_mods_io_vertx_lang_js_1_1_0_vertx_streams_js_49;.call (/tmp/perf-23895.map)
@@ -1235,7 +1235,7 @@ java 23922 [000] 184694.420880: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23921 [002] 184694.423471: cycles: 
+java 23921 [002] 184694.423471: cycles:
 	    7f6b42515d08 __libc_enable_asynccancel (/lib/x86_64-linux-gnu/libc-2.19.so)
 	    7f6b2d3de7f2 Lsun/nio/ch/EPollArrayWrapper;.epollWait (/tmp/perf-23895.map)
 	    7f6b2d591320 Lsun/nio/ch/EPollArrayWrapper;.poll (/tmp/perf-23895.map)
@@ -1255,7 +1255,7 @@ java 23921 [002] 184694.423471: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23922 [001] 184694.425117: cycles: 
+java 23922 [001] 184694.425117: cycles:
 	    7f6b2d25e374 Lio/netty/channel/DefaultChannelHandlerContext;.fireChannelRead (/tmp/perf-23895.map)
 	    7f6b2d41812c Lio/netty/handler/codec/ByteToMessageDecoder;.channelRead (/tmp/perf-23895.map)
 	    7f6b2d25e364 Lio/netty/channel/DefaultChannelHandlerContext;.fireChannelRead (/tmp/perf-23895.map)
@@ -1275,7 +1275,7 @@ java 23922 [001] 184694.425117: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23923 [003] 184694.427558: cycles: 
+java 23923 [003] 184694.427558: cycles:
 	    7f6b2d13647c Lio/netty/handler/codec/http/HttpObjectDecoder;.findWhitespace (/tmp/perf-23895.map)
 	    7f6b2d3ffb20 Lio/netty/handler/codec/http/HttpObjectDecoder;.decode (/tmp/perf-23895.map)
 	    7f6b2d417fd0 Lio/netty/handler/codec/ByteToMessageDecoder;.channelRead (/tmp/perf-23895.map)
@@ -1296,7 +1296,7 @@ java 23923 [003] 184694.427558: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-java 23923 [000] 184694.432846: cycles: 
+java 23923 [000] 184694.432846: cycles:
 	    7f6b2d40f900 Lorg/mozilla/javascript/gen/file__home_bgregg_vert_x_2_1_sys_mods_io_vertx_lang_js_1_1_0_vertx_http_js_93;.getParamAndVarCount (/tmp/perf-23895.map)
 	    7f6b2d5af318 Lorg/mozilla/javascript/gen/file__home_bgregg_vert_x_2_1_sys_mods_io_vertx_lang_js_1_1_0_vertx_http_js_93;._c_anonymous_21 (/tmp/perf-23895.map)
 	    7f6b2d4bbfd0 Lorg/mozilla/javascript/gen/file__home_bgregg_vert_x_2_1_sys_mods_io_vertx_lang_js_1_1_0_vertx_http_js_93;.call (/tmp/perf-23895.map)
@@ -1329,7 +1329,7 @@ java 23923 [000] 184694.432846: cycles:
 	    7f6b41d4fb08 java_start(Thread*) (/usr/lib/jvm/jdk1.8.0_60_b19/jre/lib/amd64/server/libjvm.so)
 	    7f6b42bf5182 start_thread (/lib/x86_64-linux-gnu/libpthread-2.19.so)
 
-ab 23927 [002] 184694.435091: cycles: 
+ab 23927 [002] 184694.435091: cycles:
 	ffffffff81724b08 __schedule ([kernel.kallsyms])
 	ffffffff817251a9 schedule ([kernel.kallsyms])
 	ffffffff817247ec schedule_hrtimeout_range_clock ([kernel.kallsyms])
